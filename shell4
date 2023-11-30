@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "Digite seu nome de usuário: " nome
+read -s -p "Entre com sua senha: " senha
+echo -e "\nBem-vindo ao sistema, $nome!."
+echo -e "\nA senha escolhida foi $senha."
+

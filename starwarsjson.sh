@@ -22,7 +22,10 @@ cat $diretorio/output.txt
 
 #Buscando seção (objeto) JSON
 read -p "Informe uma seção que você deseja ver: " secao
-jq '.$secao' people
+
+jq [.$secao] $diretorio/people >> $diretorio/output.txt
+cat $diretorio/output.txt
+
 #Extraindo a informação da seção buscada JQ
 
 #Pergutando ao usuário qual valor ele gostaria de ver

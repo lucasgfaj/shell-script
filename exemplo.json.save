@@ -8,7 +8,7 @@ read nome_diretorio
 mkdir "$nome_diretorio"
 
 # Copiar conteúdo do JSON Star Wars para o diretório
-curl -s https://swapi.dev/api/people > "$nome_diretorio/dados_star_wars.json"
+curl -o https://swapi.dev/api/people > "$nome_diretorio/dados_star_wars.json"
 
 # Requisitar ao usuário um termo para ser buscado no arquivo JSON
 echo "Digite um termo para buscar no arquivo JSON:"

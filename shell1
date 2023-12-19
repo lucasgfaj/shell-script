@@ -1,5 +1,0 @@
-#!/bin/sh
-
-mensagem=3
-
-echo "A mensagem é: $mensagem"

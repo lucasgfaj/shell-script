@@ -1,4 +1,4 @@
-#Shell Script - starwarsjson.sh
+Shell Script - starwarsjson.sh
 
 1. Pedir ao usuário um nome e criar um diretório com este nome;
 2. Copiar conteúdo do JSON Star Wars: https://swapi.dev/api/people para este diretório;
